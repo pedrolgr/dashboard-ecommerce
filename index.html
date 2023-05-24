@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="dashboards">
+            
+            <div class="dashboards-row">
+
+                <div class="dashboard-1 dashboard-overview dashboard-window">
+                    <span class="dash-title">Total de vendas</span>
+                    <p class="total-vendas dashboard-data"></p>
+                </div>
+    
+                <div class="dashboard-2 dashboard-overview dashboard-window">
+                    <span class="dash-title">Faturamento</span>
+                    <p class="dashboard-data">R$</p>
+                    <p class="faturamento dashboard-data"></p>
+                </div>
+    
+                <div class="dashboard-3 dashboard-overview dashboard-window">
+                    <span class="dash-title">Lucro</span>
+                    <p class="dashboard-data">R$</p>
+                    <p class="lucro dashboard-data"></p>
+                </div>
+    
+                <div class="dashboard-4 dashboard-overview dashboard-window">
+                    <span class="dash-title">Reembolsos</span>
+                    <p class="reembolso dashboard-data"></p>
+                </div>
+    
+            </div>
+
+            <div class="dashboards-row">
+
+                <div class="dashboard-5 dashboard-window">
+                    <span class="dash-title">Itens mais vendidos</span>
+                    <canvas id="itensChart" class="charts"></canvas>
+                </div>
+
+                <div class="dashboard-6 dashboard-window">
+                    <span class="dash-title">Categorias mais vendidas</span>
+                    <canvas id="categoryChart" class="charts"></canvas>
+                </div>
+
+                <div class="dashboard-7 dashboard-window">
+                    <span class="dash-title">Gêneros que mais compram</span>
+                    <canvas id="genderChart" class="charts"></canvas>
+                </div>
+
+            </div>
+
+            <div class="dashboards-row">
+
+                <div class="dashboard-8 dashboard-window">
+                    <span class="dash-title">Últimas vendas</span>
+                        <table id="table-sellings">
+                            <tr>
+                                <th>Produto</th>
+                                <th>Categoria</th>
+                                <th>Preço</th>
+                                <th>Gênero do comprador</th>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+</html>
