@@ -6,4 +6,4 @@
  
  
 # Aplicação: 
-![Imagem da aplicação dashboard ecommerce](https://github.com/pedrolgr/dashboard-ecommerce/tree/main/assets/aplicacao.png)
+![Imagem da aplicação dashboard ecommerce](https://github.com/pedrolgr/dashboard-ecommerce/blob/main/assets/aplicacao.png)
